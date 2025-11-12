@@ -896,7 +896,7 @@ export default function PortfolioPage() {
 
             {/* External Links */}
             <a
-              href={GITHUB_DISCOVER_URL}
+              href={GITHUB}
               target="_blank"
               rel="noreferrer"
               className="hover:text-violet-400 transition"
