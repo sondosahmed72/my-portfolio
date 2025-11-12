@@ -778,11 +778,11 @@ const experiences = [
 export default function PortfolioPage() {
   const [projTag, setProjTag] = useState("All");
   const [projSearch, setProjSearch] = useState("");
-  const [selectedProject, setSelectedProject] = useState(null);
+
 
   const [certTag, setCertTag] = useState("All");
   const [certSearch, setCertSearch] = useState("");
-  const [selectedCert, setSelectedCert] = useState(null);
+
   const [skillSearch, setSkillSearch] = useState("");
   const filteredProjects = useMemo(() => {
     return projectsData.filter((p) => {
