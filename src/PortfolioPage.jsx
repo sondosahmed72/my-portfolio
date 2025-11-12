@@ -814,12 +814,7 @@ export default function PortfolioPage() {
       : [];
   }, [certTag, certSearch]);
 
-  // motion presets
-  const listItem = {
-    initial: { opacity: 0, y: 8 },
-    animate: { opacity: 1, y: 0 },
-    exit: { opacity: 0, y: 8 },
-  };
+  
 
   return (
     <div className="min-h-screen relative bg-slate-950 text-slate-100 overflow-hidden">
