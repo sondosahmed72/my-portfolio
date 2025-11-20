@@ -496,13 +496,51 @@ const certCategories = [
 ];
 
 const certificationsData = [
-  // AI & Machine Learning
+  // Deep Learning & Computer Vision
   {
     id: "dl_pytorch",
-    category: "AI & Machine Learning",
+    category: "Deep Learning & Computer Vision",
     title: "Deep Learning with PyTorch — IBM | Nov 2025",
     bullets: ["Built and trained deep and convolutional neural networks using PyTorch."],
   },
+  {
+    id: "intro_keras",
+    category: "Deep Learning & Computer Vision",
+    title: "Introduction to Deep Learning & Neural Networks with Keras — IBM | Nov 2025",
+    bullets: ["Designed and trained CNNs, RNNs, Transformers, and autoencoders."],
+  },
+  {
+    id: "nvidia_dl",
+    category: "Deep Learning & Computer Vision",
+    title: "Getting Started with Deep Learning — NVIDIA | Sep 2025",
+    bullets: ["Focused on intelligent system design and predictive models using AI, ML, and DL."],
+  },
+  {
+    id: "cnn_dlai",
+    category: "Deep Learning & Computer Vision",
+    title: "Convolutional Neural Networks — DeepLearning.AI | Jan 2025",
+    bullets: ["Implemented CNN architectures for image recognition tasks."],
+  },
+  {
+    id: "biomedical_img",
+    category: "Deep Learning & Computer Vision",
+    title: "Biomedical Image Analysis in Python — DataCamp | Oct 2024",
+    bullets: ["Analyzed biomedical images using Python, OpenCV, and Keras."],
+  },
+  {
+    id: "img_modeling_keras",
+    category: "Deep Learning & Computer Vision",
+    title: "Image Modeling with Keras — DataCamp | Oct 2024",
+    bullets: ["Developed image models using Keras."],
+  },
+  {
+    id: "img_processing",
+    category: "Deep Learning & Computer Vision",
+    title: "Image Processing in Python — DataCamp | Oct 2024",
+    bullets: ["Image transformations, augmentation, and CNN modeling using OpenCV and Keras."],
+  },
+
+  // AI & Machine Learning
   {
     id: "intro_pytorch",
     category: "AI & Machine Learning",
@@ -510,28 +548,40 @@ const certificationsData = [
     bullets: ["Implemented linear/logistic regression and PyTorch tensor operations."],
   },
   {
-    id: "intro_keras",
-    category: "AI & Machine Learning",
-    title: "Introduction to Deep Learning & Neural Networks with Keras — IBM | Nov 2025",
-    bullets: ["Designed and trained CNNs, RNNs, Transformers, and autoencoders."],
-  },
-  {
     id: "ml_python_ibm",
     category: "AI & Machine Learning",
     title: "Machine Learning with Python — IBM | Sep 2025",
-    bullets: ["Supervised/unsupervised models, regression, dimensionality reduction, and capstone project."],
+    bullets: ["Supervised/unsupervised models, regression, dimensionality reduction, capstone project."],
   },
   {
     id: "dl_specialization",
     category: "AI & Machine Learning",
-    title: "Deep Learning Specialization — DeepLearning.AI | May 2025",
-    bullets: ["125h covering CNNs, sequence models, and real-world ML projects."],
+    title: "Deep Learning Specialization — DeepLearning.AI | Sep 2025",
+    bullets: ["Sequence models, neural networks, hyperparameter tuning, regularization, and optimization."],
   },
   {
     id: "ml_specialization",
     category: "AI & Machine Learning",
     title: "Machine Learning Specialization — Stanford & DeepLearning.AI | Aug 2024",
-    bullets: ["Supervised learning, advanced training techniques, and unsupervised methods."],
+    bullets: ["Supervised learning, regression/classification, unsupervised methods, and advanced ML techniques."],
+  },
+  {
+    id: "nn_dlai",
+    category: "AI & Machine Learning",
+    title: "Neural Networks and Deep Learning — DeepLearning.AI | Sep 2024",
+    bullets: ["Artificial neural networks, deep learning basics, and Python implementation."],
+  },
+  {
+    id: "structuring_ml",
+    category: "AI & Machine Learning",
+    title: "Structuring Machine Learning Projects — DeepLearning.AI | Sep 2024",
+    bullets: ["Best practices for ML project workflow and problem scoping."],
+  },
+  {
+    id: "improving_dl",
+    category: "AI & Machine Learning",
+    title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization — DeepLearning.AI | Sep 2024",
+    bullets: ["Advanced optimization, regularization, and hyperparameter tuning for neural networks."],
   },
   {
     id: "ts_ml_datacamp",
@@ -540,16 +590,34 @@ const certificationsData = [
     bullets: ["Time-series feature engineering and forecasting techniques."],
   },
   {
-    id: "ds_diploma",
+    id: "aws_ml_essentials",
     category: "AI & Machine Learning",
-    title: "Data Science & Machine Learning Diploma — CLS Learning Solutions | Apr 2024",
-    bullets: ["100h diploma focused on predictive models and ML techniques."],
+    title: "Machine Learning Essentials for Business & Technical Decision Makers — AWS | Jun 2024",
+    bullets: ["ML concepts and business applications using Python."],
   },
   {
-    id: "nvidia_dl",
+    id: "aws_ml_possible",
     category: "AI & Machine Learning",
-    title: "NVIDIA Deep Learning Certification",
-    bullets: ["Focused on designing intelligent systems and predictive models using AI, ML, and DL."],
+    title: "Introduction to Machine Learning: Art of the Possible — AWS | Mar 2024",
+    bullets: ["Overview of ML applications and Python implementation."],
+  },
+  {
+    id: "aws_ml_terminology",
+    category: "AI & Machine Learning",
+    title: "Machine Learning Terminology and Process — AWS | Mar 2024",
+    bullets: ["ML process, terminology, and workflow in Python."],
+  },
+  {
+    id: "aws_ml_project",
+    category: "AI & Machine Learning",
+    title: "Planning a Machine Learning Project — AWS | Mar 2024",
+    bullets: ["Project planning and implementation steps for ML."],
+  },
+  {
+    id: "ds_diploma",
+    category: "AI & Machine Learning",
+    title: "Data Science and Machine Learning Diploma — CLS Learning Solutions | Apr 2024",
+    bullets: ["Predictive modeling, ML techniques, time series, web scraping, BI, Flask, Python, and neural networks."],
   },
 
   // NLP & LLM
@@ -557,7 +625,7 @@ const certificationsData = [
     id: "text_embeddings",
     category: "NLP & LLM",
     title: "Understanding and Applying Text Embeddings — DeepLearning.AI | Aug 2024",
-    bullets: ["Embedding techniques for semantic search and NLP tasks."],
+    bullets: ["Embedding techniques for semantic search, LLMs, and NLP tasks."],
   },
   {
     id: "hf_datacamp",
@@ -565,13 +633,17 @@ const certificationsData = [
     title: "Working with Hugging Face — DataCamp | Sep 2025",
     bullets: ["Hands-on experience with Hugging Face Transformers and Datasets."],
   },
-
-  // Deep Learning & Computer Vision
   {
-    id: "img_processing",
-    category: "Deep Learning & Computer Vision",
-    title: "Image Processing in Python Track — DataCamp | Oct 2024",
-    bullets: ["Image transformation, augmentation, biomedical image analysis, CNN modeling with OpenCV and Keras."],
+    id: "langchain_func",
+    category: "NLP & LLM",
+    title: "Functions, Tools, and Agents with LangChain — DeepLearning.AI | Sep 2025",
+    bullets: ["LangChain usage for building LLM-based applications."],
+  },
+  {
+    id: "langchain_app",
+    category: "NLP & LLM",
+    title: "LangChain for LLM Application Development — DeepLearning.AI | Sep 2025",
+    bullets: ["Developed LLM-powered applications with LangChain framework."],
   },
 
   // Data Analysis & BI
@@ -584,7 +656,7 @@ const certificationsData = [
   {
     id: "improve_data_viz",
     category: "Data Analysis & BI",
-    title: "Improving Your Data Visualization in Python — DataCamp | Aug 2024",
+    title: "Improving Your Data Visualizations in Python — DataCamp | Aug 2024",
     bullets: ["Best practices for clear and effective graphs."],
   },
   {
@@ -600,23 +672,35 @@ const certificationsData = [
     bullets: ["Microsoft learning path for data analysis and Power BI."],
   },
   {
-    id: "sas_data_lit",
+    id: "get_data_powerbi",
     category: "Data Analysis & BI",
-    title: "Data Literacy in Practice / Essentials — SAS | Aug 2024",
-    bullets: ["Fundamentals of data literacy and interpretation."],
+    title: "Get Data with Power BI Desktop — Microsoft | Jul 2024",
+    bullets: ["Data cleaning and preparation in Power BI."],
+  },
+  {
+    id: "get_started_powerbi",
+    category: "Data Analysis & BI",
+    title: "Get Started Building with Power BI — Microsoft | Jul 2024",
+    bullets: ["Hands-on practice with Power BI dashboards."],
+  },
+  {
+    id: "digital_transformation_data",
+    category: "Data Analysis & BI",
+    title: "Digital Transformation and Data Literacy — CIB Egypt | Aug 2024",
+    bullets: ["Data literacy and digital transformation knowledge."],
   },
 
   // Data Engineering & Databases
   {
     id: "data_eng_ibm",
     category: "Data Engineering & Databases",
-    title: "Introduction to Data Engineering — IBM | 2025",
+    title: "Introduction to Data Engineering — IBM | Sep 2025",
     bullets: ["Relational Databases, NoSQL, and Big Data Engines."],
   },
   {
     id: "databases_sql",
     category: "Data Engineering & Databases",
-    title: "Databases & SQL for Data Science — IBM | Sep 2024",
+    title: "Databases and SQL for Data Science — IBM | Sep 2024",
     bullets: ["SQL for data extraction and transformation."],
   },
   {
@@ -663,6 +747,18 @@ const certificationsData = [
     title: "Problem Solving Level 2 — Coach Academy | 2024",
     bullets: ["Advanced problem solving exercises."],
   },
+  {
+    id: "back_end_meta",
+    category: "Programming & Problem Solving",
+    title: "Back-End Developer — Meta / Coursera | Apr 2023",
+    bullets: ["Back-end development concepts, APIs, databases, and server-side Python."],
+  },
+  {
+    id: "flutter_training",
+    category: "Mobile & Frontend",
+    title: "Flutter Summer Training — Support ASU | Sep 2023",
+    bullets: ["Dart, APIs, SQLite, Firebase, and UI development with Flutter."],
+  },
 
   // Tools & Cloud
   {
@@ -670,6 +766,12 @@ const certificationsData = [
     category: "Tools & Cloud",
     title: "Introduction to Amazon SageMaker — AWS | Jun 2024",
     bullets: ["Basics of SageMaker for training and deploying ML models."],
+  },
+  {
+    id: "aws_concepts",
+    category: "Tools & Cloud",
+    title: "AWS Concepts — DataCamp | Aug 2025",
+    bullets: ["Foundational AWS knowledge for ML and cloud services."],
   },
   {
     id: "git_github",
@@ -682,6 +784,14 @@ const certificationsData = [
     category: "Tools & Cloud",
     title: "Version Control — Meta / Coursera | Sep 2023",
     bullets: ["Fundamentals of Git workflows."],
+  },
+
+  // Software Testing
+  {
+    id: "software_testing",
+    category: "Software Testing",
+    title: "Software Testing Workshop — Support ASU | Feb 2023",
+    bullets: ["ISTQB testing fundamentals and practices."],
   },
 ];
 
