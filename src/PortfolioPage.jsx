@@ -516,12 +516,6 @@ const certificationsData = [
     bullets: ["Focused on intelligent system design and predictive models using AI, ML, and DL."],
   },
   {
-    id: "cnn_dlai",
-    category: "Deep Learning & Computer Vision",
-    title: "Convolutional Neural Networks — DeepLearning.AI | Jan 2025",
-    bullets: ["Implemented CNN architectures for image recognition tasks."],
-  },
-  {
     id: "biomedical_img",
     category: "Deep Learning & Computer Vision",
     title: "Biomedical Image Analysis in Python — DataCamp | Oct 2024",
@@ -555,7 +549,7 @@ const certificationsData = [
   },
   {
     id: "dl_specialization",
-    category: "AI & Machine Learning",
+    category: "Deep Learning & Computer Vision",
     title: "Deep Learning Specialization — DeepLearning.AI | Sep 2025",
     bullets: ["Sequence models, neural networks, hyperparameter tuning, regularization, and optimization."],
   },
@@ -564,24 +558,6 @@ const certificationsData = [
     category: "AI & Machine Learning",
     title: "Machine Learning Specialization — Stanford & DeepLearning.AI | Aug 2024",
     bullets: ["Supervised learning, regression/classification, unsupervised methods, and advanced ML techniques."],
-  },
-  {
-    id: "nn_dlai",
-    category: "AI & Machine Learning",
-    title: "Neural Networks and Deep Learning — DeepLearning.AI | Sep 2024",
-    bullets: ["Artificial neural networks, deep learning basics, and Python implementation."],
-  },
-  {
-    id: "structuring_ml",
-    category: "AI & Machine Learning",
-    title: "Structuring Machine Learning Projects — DeepLearning.AI | Sep 2024",
-    bullets: ["Best practices for ML project workflow and problem scoping."],
-  },
-  {
-    id: "improving_dl",
-    category: "AI & Machine Learning",
-    title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization — DeepLearning.AI | Sep 2024",
-    bullets: ["Advanced optimization, regularization, and hyperparameter tuning for neural networks."],
   },
   {
     id: "ts_ml_datacamp",
