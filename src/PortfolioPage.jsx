@@ -482,195 +482,162 @@ const projectsCategories = [
   "Data Analysis & BI",
 ];
 
+const certCategories = [
+  "All",
+  "AI & Machine Learning",
+  "Deep Learning & Computer Vision",
+  "NLP & LLM",
+  "Data Analysis & BI",
+  "Data Engineering & Databases",
+  "Programming & Problem Solving",
+  "Tools & Cloud",
+  "Mobile & Frontend",
+  "Software Testing",
+];
+
 const certificationsData = [
+  // AI & Machine Learning
   {
     id: "dl_pytorch",
     category: "AI & Machine Learning",
     title: "Deep Learning with PyTorch — IBM | Nov 2025",
-    bullets: [
-      "Built and trained deep and convolutional neural networks using PyTorch, applying Softmax regression, backpropagation, and activation functions.",
-    ],
+    bullets: ["Built and trained deep and convolutional neural networks using PyTorch."],
   },
   {
     id: "intro_pytorch",
     category: "AI & Machine Learning",
     title: "Introduction to Neural Networks with PyTorch — IBM | Oct 2025",
-    bullets: [
-      "Mastered PyTorch tensor operations and implemented linear and logistic regression models using gradient descent optimization.",
-    ],
+    bullets: ["Implemented linear/logistic regression and PyTorch tensor operations."],
   },
   {
     id: "intro_keras",
     category: "AI & Machine Learning",
-    title:
-      "Introduction to Deep Learning & Neural Networks with Keras — IBM | Nov 2025",
-    bullets: [
-      "Designed and trained deep learning models using Keras; implemented CNNs, RNNs, Transformers, and autoencoders with hands-on projects.",
-    ],
-  },
-  {
-    id: "nvidia_dl",
-    category: "AI & Machine Learning",
-    title: "NVIDIA Deep Learning Certification",
-    bullets: [
-      "Focused on designing intelligent systems and predictive models using AI, ML, and DL.",
-    ],
-  },
-  {
-    id: "hf_datacamp",
-    category: "AI & Machine Learning",
-    title: "Working with Hugging Face — DataCamp | Sep 2025",
-    bullets: [
-      "Practical experience with Hugging Face Transformers and Datasets.",
-    ],
+    title: "Introduction to Deep Learning & Neural Networks with Keras — IBM | Nov 2025",
+    bullets: ["Designed and trained CNNs, RNNs, Transformers, and autoencoders."],
   },
   {
     id: "ml_python_ibm",
     category: "AI & Machine Learning",
-    title: "Machine Learning with Python — IBM | Sep 2025 | 17 h",
-    bullets: [
-      "Covered scikit-learn, regression, supervised/unsupervised models, dimensionality reduction, and a capstone rainfall prediction project.",
-    ],
+    title: "Machine Learning with Python — IBM | Sep 2025",
+    bullets: ["Supervised/unsupervised models, regression, dimensionality reduction, and capstone project."],
   },
   {
     id: "dl_specialization",
     category: "AI & Machine Learning",
     title: "Deep Learning Specialization — DeepLearning.AI | May 2025",
-    bullets: [
-      "125h across 5 courses covering CNNs, sequence models, and best practices for real-world ML projects.",
-    ],
+    bullets: ["125h covering CNNs, sequence models, and real-world ML projects."],
   },
   {
     id: "ml_specialization",
     category: "AI & Machine Learning",
-    title:
-      "Machine Learning Specialization — Stanford & DeepLearning.AI | Aug 2024",
-    bullets: [
-      "Applied supervised learning, advanced training techniques, and explored unsupervised methods.",
-    ],
+    title: "Machine Learning Specialization — Stanford & DeepLearning.AI | Aug 2024",
+    bullets: ["Supervised learning, advanced training techniques, and unsupervised methods."],
   },
   {
     id: "ts_ml_datacamp",
     category: "AI & Machine Learning",
-    title:
-      "Machine Learning for Time Series Data in Python — DataCamp | Sep 2024",
+    title: "Machine Learning for Time Series Data — DataCamp | Sep 2024",
     bullets: ["Time-series feature engineering and forecasting techniques."],
-  },
-  {
-    id: "text_embeddings",
-    category: "AI & Machine Learning",
-    title:
-      "Understanding and Applying Text Embeddings — DeepLearning.AI | Aug 2024",
-    bullets: [
-      "Explored embedding techniques for semantic search and NLP tasks.",
-    ],
   },
   {
     id: "ds_diploma",
     category: "AI & Machine Learning",
-    title:
-      "Data Science & Machine Learning Diploma — CLS Learning Solutions | Apr 2024",
+    title: "Data Science & Machine Learning Diploma — CLS Learning Solutions | Apr 2024",
     bullets: ["100h diploma focused on predictive models and ML techniques."],
   },
-  // Image Processing & Computer Vision
+  {
+    id: "nvidia_dl",
+    category: "AI & Machine Learning",
+    title: "NVIDIA Deep Learning Certification",
+    bullets: ["Focused on designing intelligent systems and predictive models using AI, ML, and DL."],
+  },
+
+  // NLP & LLM
+  {
+    id: "text_embeddings",
+    category: "NLP & LLM",
+    title: "Understanding and Applying Text Embeddings — DeepLearning.AI | Aug 2024",
+    bullets: ["Embedding techniques for semantic search and NLP tasks."],
+  },
+  {
+    id: "hf_datacamp",
+    category: "NLP & LLM",
+    title: "Working with Hugging Face — DataCamp | Sep 2025",
+    bullets: ["Hands-on experience with Hugging Face Transformers and Datasets."],
+  },
+
+  // Deep Learning & Computer Vision
   {
     id: "img_processing",
-    category: "Image Processing & Computer Vision",
+    category: "Deep Learning & Computer Vision",
     title: "Image Processing in Python Track — DataCamp | Oct 2024",
-    bullets: [
-      "Image transformation, augmentation, biomedical image analysis, and CNN modeling using OpenCV and Keras.",
-    ],
+    bullets: ["Image transformation, augmentation, biomedical image analysis, CNN modeling with OpenCV and Keras."],
   },
-  // Data Viz & BI
+
+  // Data Analysis & BI
   {
     id: "plotly_dash",
-    category: "Data Visualization & BI",
-    title: "Data Visualization with Plotly and Dash — DataCamp | Jul 2025",
-    bullets: ["Building interactive dashboards with Plotly and Dash."],
+    category: "Data Analysis & BI",
+    title: "Data Visualization with Plotly & Dash — DataCamp | Jul 2025",
+    bullets: ["Interactive dashboards using Plotly and Dash."],
   },
   {
     id: "improve_data_viz",
-    category: "Data Visualization & BI",
+    category: "Data Analysis & BI",
     title: "Improving Your Data Visualization in Python — DataCamp | Aug 2024",
-    bullets: ["Best practices and techniques for clearer graphs."],
+    bullets: ["Best practices for clear and effective graphs."],
   },
   {
     id: "power_bi",
-    category: "Data Visualization & BI",
+    category: "Data Analysis & BI",
     title: "Introduction to Power BI — DataCamp | Aug 2024",
-    bullets: ["Dashboards and reporting in Power BI."],
+    bullets: ["Building dashboards and reporting with Power BI."],
   },
   {
     id: "ms_powerbi_path",
-    category: "Data Visualization & BI",
-    title:
-      "Discover Data Analysis / Power BI Path — Microsoft Learning | Jul 2024",
+    category: "Data Analysis & BI",
+    title: "Discover Data Analysis / Power BI Path — Microsoft Learning | Jul 2024",
     bullets: ["Microsoft learning path for data analysis and Power BI."],
   },
   {
     id: "sas_data_lit",
-    category: "Data Visualization & BI",
+    category: "Data Analysis & BI",
     title: "Data Literacy in Practice / Essentials — SAS | Aug 2024",
     bullets: ["Fundamentals of data literacy and interpretation."],
   },
-  // Tools
+
+  // Data Engineering & Databases
   {
-    id: "sagemaker",
-    category: "Tools",
-    title: "Introduction to Amazon SageMaker — AWS | Jun 2024",
-    bullets: ["Basics of SageMaker for training and deploying ML models."],
-  },
-  {
-    id: "git_github",
-    category: "Tools",
-    title: "Git and GitHub — Almdrasa | Sep 2023",
-    bullets: ["Version control and collaboration using Git and GitHub."],
-  },
-  {
-    id: "version_control",
-    category: "Tools",
-    title: "Version Control — Meta / Coursera | Sep 2023",
-    bullets: ["Version control fundamentals and workflows."],
-  },
-  
-  //Data Engineering & Databases
-  {
-    id: "data",
+    id: "data_eng_ibm",
     category: "Data Engineering & Databases",
     title: "Introduction to Data Engineering — IBM | 2025",
-       bullets: ["Describe data engineering technologies such as Relational Databases, NoSQL Data Stores, and Big Data Engines."],
-  
+    bullets: ["Relational Databases, NoSQL, and Big Data Engines."],
   },
   {
     id: "databases_sql",
     category: "Data Engineering & Databases",
-    title: "Databases & SQL for Data Science — IBM / Coursera | Sep 2024",
+    title: "Databases & SQL for Data Science — IBM | Sep 2024",
     bullets: ["SQL for data extraction and transformation."],
   },
   {
     id: "data1",
     category: "Data Engineering & Databases",
-    title: "Introduction to Data Literacy — DataCAmp | 2024",
-    bullets: ["Understanding why data literacy is important and why you should take steps to become data literate."],
- },
+    title: "Introduction to Data Literacy — DataCamp | 2024",
+    bullets: ["Importance of data literacy and best practices."],
+  },
   {
     id: "data2",
     category: "Data Engineering & Databases",
-    title: "Introduction to Data — DataCAmp | 2024",
-    bullets: ["Describe a solid understanding of the concepts and principles of data and how it is used to make smart decisions, as well as some best practices in data handling."],
+    title: "Introduction to Data — DataCamp | 2024",
+    bullets: ["Data concepts and smart decision-making principles."],
   },
-   {
+  {
     id: "data3",
     category: "Data Engineering & Databases",
-    title: "Data Literacy Essentials — SAS | 2024",
-    bullets: ["Learning how to use data in meaningful ways."],
+    title: "Data Literacy Essentials / In Practice — SAS | 2024",
+    bullets: ["Prepare, analyze, and visualize data using real-world examples."],
   },
-   {
-    id: "data3",
-    category: "Data Engineering & Databases",
-    title: "Data Literacy in Practice — SAS | 2024",
-    bullets: ["Using real-world applications, earners of this badge have gained skills to prepare data, conduct analysis, and share insights using data visualizations."],
-  },
+
   // Programming & Problem Solving
   {
     id: "python_meta",
@@ -688,26 +655,36 @@ const certificationsData = [
     id: "problem_solving",
     category: "Programming & Problem Solving",
     title: "Problem Solving Level 1 — Coach Academy | 2022",
-    bullets: ["Progressive problem solving training and exercises."],
+    bullets: ["Progressive problem solving training."],
   },
-   {
+  {
     id: "problem_solving1",
     category: "Programming & Problem Solving",
     title: "Problem Solving Level 2 — Coach Academy | 2024",
-    bullets: ["Progressive problem solving training and exercises."],
+    bullets: ["Advanced problem solving exercises."],
   },
-  
+
+  // Tools & Cloud
+  {
+    id: "sagemaker",
+    category: "Tools & Cloud",
+    title: "Introduction to Amazon SageMaker — AWS | Jun 2024",
+    bullets: ["Basics of SageMaker for training and deploying ML models."],
+  },
+  {
+    id: "git_github",
+    category: "Tools & Cloud",
+    title: "Git and GitHub — Almdrasa | Sep 2023",
+    bullets: ["Version control and collaboration."],
+  },
+  {
+    id: "version_control",
+    category: "Tools & Cloud",
+    title: "Version Control — Meta / Coursera | Sep 2023",
+    bullets: ["Fundamentals of Git workflows."],
+  },
 ];
 
-const certCategories = [
-  "All",
-  "AI & Machine Learning",
-  "Image Processing & Computer Vision",
-  "Data Visualization & BI",
-  "Tools",
-  "Data Engineering & Databases",
-  "Programming & Problem Solving",
-];
 
 const skills = {
   programming: [
