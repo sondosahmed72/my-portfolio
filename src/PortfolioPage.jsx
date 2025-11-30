@@ -39,7 +39,8 @@ const projectsData = [
       "Integrated full-stack architecture: Angular (frontend), .NET Core (backend), Flask (AI services).",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Ra7laa-Travel-Planning-Itinerary-Generator",
+      github:
+        "https://github.com/sondosahmed72/Ra7laa-Travel-Planning-Itinerary-Generator",
       live: "https://ra7ala.live",
     },
   },
@@ -56,12 +57,31 @@ const projectsData = [
       "Implemented Streamlit interface with live camera feed, logs, and alert system for automated notifications via Telegram.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/SSIM-Site-Safety-Intelligence-System",
+      github:
+        "https://github.com/sondosahmed72/SSIM-Site-Safety-Intelligence-System",
       live: "https://ra7ala.live",
     },
   },
 
   // ---------------- Machine Learning & AI ----------------
+  {
+    id: "waste_classification",
+    category: "Machine Learning & AI",
+    title: "Waste Classification Using Transfer Learning",
+    year: "2025",
+    tags: ["ML", "CNN", "Transfer Learning"],
+    tech: "TensorFlow, Keras, VGG16, ImageDataGenerator, Python",
+    bullets: [
+      "Built a binary image classifier to distinguish between Organic (O) and Recyclable (R) waste.",
+      "Applied transfer learning with VGG16, data augmentation, and fine-tuning to achieve high accuracy.",
+      "Plotted training/validation accuracy and loss curves; visualized predictions on test images.",
+    ],
+    links: {
+      github:
+        "https://github.com/sondosahmed72/Waste-Classification-Using-Transfer-Learning",
+      live: "https://ra7ala.live",
+    },
+  },
   {
     id: "cv_eval",
     category: "Machine Learning & AI",
@@ -109,7 +129,8 @@ const projectsData = [
       "Trained Linear Regression and Random Forest Regressor achieving high R² and low RMSE.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Boston-Housing-Price-Prediction",
+      github:
+        "https://github.com/sondosahmed72/Boston-Housing-Price-Prediction",
       live: "https://ra7ala.live",
     },
   },
@@ -126,7 +147,8 @@ const projectsData = [
       "Achieved 86.06% accuracy and LogLoss: 0.369 on validation.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Cirrhosis-Patient-Survival-Prediction-XGBoost-Classifier",
+      github:
+        "https://github.com/sondosahmed72/Cirrhosis-Patient-Survival-Prediction-XGBoost-Classifier",
       live: "https://ra7ala.live",
     },
   },
@@ -141,7 +163,8 @@ const projectsData = [
       "Developed a creditworthiness evaluation model using classification techniques.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/CodeAlpha-ML-Internship-Projects/tree/main/Credit%20Scoring%20Model",
+      github:
+        "https://github.com/sondosahmed72/CodeAlpha-ML-Internship-Projects/tree/main/Credit%20Scoring%20Model",
       live: "https://ra7ala.live",
     },
   },
@@ -172,13 +195,32 @@ const projectsData = [
       "Compared Logistic Regression, Decision Trees, and Random Forest for best accuracy.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/CognoRise-InfoTech/tree/main/task1",
+      github:
+        "https://github.com/sondosahmed72/CognoRise-InfoTech/tree/main/task1",
       live: "https://ra7ala.live",
     },
   },
- 
 
   // ---------------- Deep Learning & Computer Vision ----------------
+  {
+    id: "agri_land_classification",
+  category: "Deep Learning & Computer Vision",
+  title: "Agricultural Land Classification using CNNs & Vision Transformers",
+  year: "2025",
+  tags: ["DL", "CNN", "Vision Transformer", "Geospatial AI"],
+  tech: "Keras, PyTorch, CNNs, Vision Transformers, Data Augmentation, Transfer Learning",
+  bullets: [
+    "Built and trained CNN and vision transformer models for classifying agricultural land using satellite imagery.",
+    "Implemented efficient data loading and augmentation pipelines using Keras and PyTorch, including a custom geospatial data loader.",
+    "Applied transfer learning to fine-tune pre-trained models for improved classification accuracy.",
+    "Evaluated model performance using accuracy, F1-score, and AU-ROC metrics and conducted comparative analysis.",
+    "Documented methodology, results, and insights in a professional project report."
+  ],
+  links: {
+    github: "https://github.com/sondosahmed72/Agricultural-Land-Classification-using-CNNs-Vision-Transformers.git", // ضع رابط الريبو لو متاح
+    live: ""    // ضع رابط المشروع لو متاح على الويب
+  },
+  },
   {
     id: "neural_style",
     category: "Deep Learning & Computer Vision",
@@ -191,7 +233,8 @@ const projectsData = [
       "Used pretrained VGG19 to compute content and style losses.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Neural-Style-Transfer-with-Pytorch",
+      github:
+        "https://github.com/sondosahmed72/Neural-Style-Transfer-with-Pytorch",
       live: "https://ra7ala.live",
     },
   },
@@ -207,7 +250,8 @@ const projectsData = [
       "Evaluated performance with SSIM, PSNR, and MSE metrics, achieving superior visual quality.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Super-Resolution-Image-Enhancement-using-CNN-SRCNN-",
+      github:
+        "https://github.com/sondosahmed72/Super-Resolution-Image-Enhancement-using-CNN-SRCNN-",
       live: "https://ra7ala.live",
     },
   },
@@ -223,7 +267,8 @@ const projectsData = [
       "Implemented reconstruction and KL divergence losses for training.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Anime-Face-Generation-using-Variational-Autoencoder-VAE-from-Scratch",
+      github:
+        "https://github.com/sondosahmed72/Anime-Face-Generation-using-Variational-Autoencoder-VAE-from-Scratch",
       live: "https://ra7ala.live",
     },
   },
@@ -255,7 +300,8 @@ const projectsData = [
       "Built complete pipeline for detection, cropping, and text recognition.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Car-Detection-and-License-Plate-OCR-YOLOv8-PaddleOCR-",
+      github:
+        "https://github.com/sondosahmed72/Car-Detection-and-License-Plate-OCR-YOLOv8-PaddleOCR-",
       live: "https://ra7ala.live",
     },
   },
@@ -270,7 +316,8 @@ const projectsData = [
       "Trained CNN to classify 7 emotions on FER-2013 dataset using data augmentation and dropout.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Facial-Emotion-Classification-PyTorch",
+      github:
+        "https://github.com/sondosahmed72/Facial-Emotion-Classification-PyTorch",
       live: "https://ra7ala.live",
     },
   },
@@ -300,7 +347,8 @@ const projectsData = [
       "Developed CNN models for image classification and applied data augmentation for better accuracy.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/-Neural-Network-Image-Classification-with-TensorFlow",
+      github:
+        "https://github.com/sondosahmed72/-Neural-Network-Image-Classification-with-TensorFlow",
       live: "https://ra7ala.live",
     },
   },
@@ -315,7 +363,8 @@ const projectsData = [
       "Trained CNN on MNIST dataset achieving high accuracy in digit classification.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/CNN-based-Handwritten-Digit-Recognition-using-MNIST-Dataset",
+      github:
+        "https://github.com/sondosahmed72/CNN-based-Handwritten-Digit-Recognition-using-MNIST-Dataset",
       live: "https://ra7ala.live",
     },
   },
@@ -333,21 +382,28 @@ const projectsData = [
       "Used cosine similarity and user profiling for personalized recommendations.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Spotify-s-recommendation-system-",
+      github:
+        "https://github.com/sondosahmed72/Spotify-s-recommendation-system-",
       live: "https://ra7ala.live",
     },
   },
-  { id: "twitter_sentiment", 
+  {
+    id: "twitter_sentiment",
     category: "NLP",
-     title: "Twitter Sentiment Analysis",
-      year: "2024", 
-      tags: ["NLP", "Sentiment Analysis"], 
-      tech: "scikit-learn, NLP",
-       bullets: [ "Processed and analyzed 160k+ tweets using text preprocessing and classification pipelines.", "Achieved high accuracy using TF-IDF with SVM and Logistic Regression.", ], 
-       links: { 
-        github: "https://github.com/sondosahmed72/CodeAlpha-ML-Internship-Projects/tree/main/TWITTER%20SENTIMENT%20ANALYSIS", 
-        live: "https://ra7ala.live", },
-      },
+    title: "Twitter Sentiment Analysis",
+    year: "2024",
+    tags: ["NLP", "Sentiment Analysis"],
+    tech: "scikit-learn, NLP",
+    bullets: [
+      "Processed and analyzed 160k+ tweets using text preprocessing and classification pipelines.",
+      "Achieved high accuracy using TF-IDF with SVM and Logistic Regression.",
+    ],
+    links: {
+      github:
+        "https://github.com/sondosahmed72/CodeAlpha-ML-Internship-Projects/tree/main/TWITTER%20SENTIMENT%20ANALYSIS",
+      live: "https://ra7ala.live",
+    },
+  },
   {
     id: "restaurant_reviews",
     category: "NLP",
@@ -437,7 +493,8 @@ const projectsData = [
       "Built interactive dashboards to visualize and analyze market sales trends.",
     ],
     links: {
-      github: "https://github.com/sondosahmed72/Market-Sales-analysis-by-Power-Bi",
+      github:
+        "https://github.com/sondosahmed72/Market-Sales-analysis-by-Power-Bi",
       live: "https://ra7ala.live",
     },
   },
@@ -498,22 +555,52 @@ const certCategories = [
 const certificationsData = [
   // Deep Learning & Computer Vision
   {
+    id: "dl_cv_coursera",
+    category: "Deep Learning & Computer Vision",
+    title:
+      "Deep Learning for Computer Vision — University of Colorado Boulder | Coursera",
+    bullets: [
+      "Improved model performance and training stability using MLPs and normalization techniques.",
+      "Implemented autoencoders for unsupervised feature learning and designed GANs for synthetic image generation.",
+      "Trained CNNs for image classification tasks and understood spatial feature extraction from visual data.",
+      "Applied advanced architectures like ResNet for deep image recognition and U-Net for image segmentation.",
+    ],
+  },
+  {
+    id: "dl2_pytorch",
+    category: "Deep Learning & Computer Vision",
+    title: "Deep Learning with Keras & TensorFlow — IBM | Nov 2025",
+    bullets: [
+      "Created custom layers and models in Keras and integrated with TensorFlow 2.x.",
+      "Developed advanced CNNs for image tasks and Transformer models for sequential data.",
+      "Studied unsupervised learning, Deep Q-networks (DQNs), and reinforcement learning.",
+      "Gained skills in Deep Learning, Neural Networks, NLP, Generative AI, Image Analysis, and Performance Tuning.",
+    ],
+  },
+  {
     id: "dl_pytorch",
     category: "Deep Learning & Computer Vision",
     title: "Deep Learning with PyTorch — IBM | Nov 2025",
-    bullets: ["Built and trained deep and convolutional neural networks using PyTorch."],
+    bullets: [
+      "Built and trained deep and convolutional neural networks using PyTorch.",
+    ],
   },
   {
     id: "intro_keras",
     category: "Deep Learning & Computer Vision",
-    title: "Introduction to Deep Learning & Neural Networks with Keras — IBM | Nov 2025",
-    bullets: ["Designed and trained CNNs, RNNs, Transformers, and autoencoders."],
+    title:
+      "Introduction to Deep Learning & Neural Networks with Keras — IBM | Nov 2025",
+    bullets: [
+      "Designed and trained CNNs, RNNs, Transformers, and autoencoders.",
+    ],
   },
   {
     id: "nvidia_dl",
     category: "Deep Learning & Computer Vision",
     title: "Getting Started with Deep Learning — NVIDIA | Sep 2025",
-    bullets: ["Focused on intelligent system design and predictive models using AI, ML, and DL."],
+    bullets: [
+      "Focused on intelligent system design and predictive models using AI, ML, and DL.",
+    ],
   },
   {
     id: "biomedical_img",
@@ -531,7 +618,9 @@ const certificationsData = [
     id: "img_processing",
     category: "Deep Learning & Computer Vision",
     title: "Image Processing in Python — DataCamp | Oct 2024",
-    bullets: ["Image transformations, augmentation, and CNN modeling using OpenCV and Keras."],
+    bullets: [
+      "Image transformations, augmentation, and CNN modeling using OpenCV and Keras.",
+    ],
   },
 
   // AI & Machine Learning
@@ -539,25 +628,34 @@ const certificationsData = [
     id: "intro_pytorch",
     category: "AI & Machine Learning",
     title: "Introduction to Neural Networks with PyTorch — IBM | Oct 2025",
-    bullets: ["Implemented linear/logistic regression and PyTorch tensor operations."],
+    bullets: [
+      "Implemented linear/logistic regression and PyTorch tensor operations.",
+    ],
   },
   {
     id: "ml_python_ibm",
     category: "AI & Machine Learning",
     title: "Machine Learning with Python — IBM | Sep 2025",
-    bullets: ["Supervised/unsupervised models, regression, dimensionality reduction, capstone project."],
+    bullets: [
+      "Supervised/unsupervised models, regression, dimensionality reduction, capstone project.",
+    ],
   },
   {
     id: "dl_specialization",
     category: "Deep Learning & Computer Vision",
     title: "Deep Learning Specialization — DeepLearning.AI | Sep 2025",
-    bullets: ["Sequence models, neural networks, hyperparameter tuning, regularization, and optimization."],
+    bullets: [
+      "Sequence models, neural networks, hyperparameter tuning, regularization, and optimization.",
+    ],
   },
   {
     id: "ml_specialization",
     category: "AI & Machine Learning",
-    title: "Machine Learning Specialization — Stanford & DeepLearning.AI | Aug 2024",
-    bullets: ["Supervised learning, regression/classification, unsupervised methods, and advanced ML techniques."],
+    title:
+      "Machine Learning Specialization — Stanford & DeepLearning.AI | Aug 2024",
+    bullets: [
+      "Supervised learning, regression/classification, unsupervised methods, and advanced ML techniques.",
+    ],
   },
   {
     id: "ts_ml_datacamp",
@@ -568,13 +666,15 @@ const certificationsData = [
   {
     id: "aws_ml_essentials",
     category: "AI & Machine Learning",
-    title: "Machine Learning Essentials for Business & Technical Decision Makers — AWS | Jun 2024",
+    title:
+      "Machine Learning Essentials for Business & Technical Decision Makers — AWS | Jun 2024",
     bullets: ["ML concepts and business applications using Python."],
   },
   {
     id: "aws_ml_possible",
     category: "AI & Machine Learning",
-    title: "Introduction to Machine Learning: Art of the Possible — AWS | Mar 2024",
+    title:
+      "Introduction to Machine Learning: Art of the Possible — AWS | Mar 2024",
     bullets: ["Overview of ML applications and Python implementation."],
   },
   {
@@ -592,33 +692,41 @@ const certificationsData = [
   {
     id: "ds_diploma",
     category: "AI & Machine Learning",
-    title: "Data Science and Machine Learning Diploma — CLS Learning Solutions | Apr 2024",
-    bullets: ["Predictive modeling, ML techniques, time series, web scraping, BI, Flask, Python, and neural networks."],
+    title:
+      "Data Science and Machine Learning Diploma — CLS Learning Solutions | Apr 2024",
+    bullets: [
+      "Predictive modeling, ML techniques, time series, web scraping, BI, Flask, Python, and neural networks.",
+    ],
   },
 
   // NLP & LLM
   {
     id: "text_embeddings",
     category: "NLP & LLM",
-    title: "Understanding and Applying Text Embeddings — DeepLearning.AI | Aug 2024",
+    title:
+      "Understanding and Applying Text Embeddings — DeepLearning.AI | Aug 2024",
     bullets: ["Embedding techniques for semantic search, LLMs, and NLP tasks."],
   },
   {
     id: "hf_datacamp",
     category: "NLP & LLM",
     title: "Working with Hugging Face — DataCamp | Sep 2025",
-    bullets: ["Hands-on experience with Hugging Face Transformers and Datasets."],
+    bullets: [
+      "Hands-on experience with Hugging Face Transformers and Datasets.",
+    ],
   },
   {
     id: "langchain_func",
     category: "NLP & LLM",
-    title: "Functions, Tools, and Agents with LangChain — DeepLearning.AI | Sep 2025",
+    title:
+      "Functions, Tools, and Agents with LangChain — DeepLearning.AI | Sep 2025",
     bullets: ["LangChain usage for building LLM-based applications."],
   },
   {
     id: "langchain_app",
     category: "NLP & LLM",
-    title: "LangChain for LLM Application Development — DeepLearning.AI | Sep 2025",
+    title:
+      "LangChain for LLM Application Development — DeepLearning.AI | Sep 2025",
     bullets: ["Developed LLM-powered applications with LangChain framework."],
   },
 
@@ -644,7 +752,8 @@ const certificationsData = [
   {
     id: "ms_powerbi_path",
     category: "Data Analysis & BI",
-    title: "Discover Data Analysis / Power BI Path — Microsoft Learning | Jul 2024",
+    title:
+      "Discover Data Analysis / Power BI Path — Microsoft Learning | Jul 2024",
     bullets: ["Microsoft learning path for data analysis and Power BI."],
   },
   {
@@ -695,7 +804,9 @@ const certificationsData = [
     id: "data3",
     category: "Data Engineering & Databases",
     title: "Data Literacy Essentials / In Practice — SAS | 2024",
-    bullets: ["Prepare, analyze, and visualize data using real-world examples."],
+    bullets: [
+      "Prepare, analyze, and visualize data using real-world examples.",
+    ],
   },
 
   // Programming & Problem Solving
@@ -727,7 +838,9 @@ const certificationsData = [
     id: "back_end_meta",
     category: "Programming & Problem Solving",
     title: "Back-End Developer — Meta / Coursera | Apr 2023",
-    bullets: ["Back-end development concepts, APIs, databases, and server-side Python."],
+    bullets: [
+      "Back-end development concepts, APIs, databases, and server-side Python.",
+    ],
   },
   {
     id: "flutter_training",
@@ -770,7 +883,6 @@ const certificationsData = [
     bullets: ["ISTQB testing fundamentals and practices."],
   },
 ];
-
 
 const skills = {
   programming: [
@@ -842,7 +954,6 @@ export default function PortfolioPage() {
   const [projTag, setProjTag] = useState("All");
   const [projSearch, setProjSearch] = useState("");
 
-
   const [certTag, setCertTag] = useState("All");
   const [certSearch, setCertSearch] = useState("");
 
@@ -876,8 +987,6 @@ export default function PortfolioPage() {
         })
       : [];
   }, [certTag, certSearch]);
-
-  
 
   return (
     <div className="min-h-screen relative bg-slate-950 text-slate-100 overflow-hidden">
@@ -923,398 +1032,398 @@ export default function PortfolioPage() {
           }
         `}</style>
         <div className="mx-auto p-8">
-        {/* Header */}
-        <header className="relative z-10 flex items-center justify-between gap-4">
-          
-          <div className="flex items-center gap-6">
-            <div>
-              <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-white">
-                {PROFILE_NAME}
-              </h1>
-              <p className="mt-2 text-lg md:text-xl text-violet-200/70">
-                AI Engineer — Junior · FCIS Ain-Shams '25
+          {/* Header */}
+          <header className="relative z-10 flex items-center justify-between gap-4">
+            <div className="flex items-center gap-6">
+              <div>
+                <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-white">
+                  {PROFILE_NAME}
+                </h1>
+                <p className="mt-2 text-lg md:text-xl text-violet-200/70">
+                  AI Engineer — Junior · FCIS Ain-Shams '25
+                </p>
+              </div>
+            </div>
+
+            <nav className="flex items-center gap-3 flex-wrap">
+              {/* Section Links */}
+              <a
+                href="#projects"
+                className="px-3 py-2 rounded-md text-sm bg-violet-500/20 ring-1 ring-violet-400/30 hover:bg-violet-500/30 transition"
+              >
+                Projects
+              </a>
+              <a
+                href="#certs"
+                className="px-3 py-2 rounded-md text-sm bg-violet-500/15 ring-1 ring-violet-400/25 hover:bg-violet-500/25 transition"
+              >
+                Certifications
+              </a>
+
+              {/* External Links */}
+              <a
+                href={GITHUB}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-violet-400 transition"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href={LINKEDIN_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-violet-400 transition"
+              >
+                <FaLinkedin />
+              </a>
+              <a href={EMAIL} className="hover:text-violet-400 transition">
+                <FaEnvelope />
+              </a>
+            </nav>
+          </header>
+
+          {/* Hero */}
+          <section className="mt-8 grid md:grid-cols-3 gap-6 items-center">
+            <div className="md:col-span-2 bg-slate-800/40 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-xl">
+              <motion.h2
+                initial={{ x: -12, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ type: "spring", stiffness: 90 }}
+                className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg"
+              >
+                Junior AI Engineer
+              </motion.h2>
+              <p className="mt-3 text-slate-200 leading-relaxed">
+                Experienced in building end-to-end AI pipelines for computer
+                vision, NLP, and full-stack AI products. Proficient in PyTorch,
+                TensorFlow, and scikit-learn.
               </p>
-            </div>
-          </div>
 
-          <nav className="flex items-center gap-3 flex-wrap">
-            {/* Section Links */}
-            <a
-              href="#projects"
-              className="px-3 py-2 rounded-md text-sm bg-violet-500/20 ring-1 ring-violet-400/30 hover:bg-violet-500/30 transition"
-            >
-              Projects
-            </a>
-            <a
-              href="#certs"
-              className="px-3 py-2 rounded-md text-sm bg-violet-500/15 ring-1 ring-violet-400/25 hover:bg-violet-500/25 transition"
-            >
-              Certifications
-            </a>
-
-            {/* External Links */}
-            <a
-              href={GITHUB}
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-violet-400 transition"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href={LINKEDIN_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-violet-400 transition"
-            >
-              <FaLinkedin />
-            </a>
-            <a href={EMAIL} className="hover:text-violet-400 transition">
-              <FaEnvelope />
-            </a>
-          </nav>
-        </header>
-
-        {/* Hero */}
-        <section className="mt-8 grid md:grid-cols-3 gap-6 items-center">
-          <div className="md:col-span-2 bg-slate-800/40 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-xl">
-            <motion.h2
-              initial={{ x: -12, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ type: "spring", stiffness: 90 }}
-              className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg"
-            >
-              Junior AI Engineer
-            </motion.h2>
-            <p className="mt-3 text-slate-200 leading-relaxed">
-              Experienced in building end-to-end AI pipelines for computer
-              vision, NLP, and full-stack AI products. Proficient in PyTorch,
-              TensorFlow, and scikit-learn.
-            </p>
-
-            <div className="mt-5 flex flex-wrap gap-3">
-              <a
-                href={
-                  "https://drive.google.com/file/d/1ycQL0RIIDDH26OeSaQiTyh-mQNnLokoj/view?usp=sharing"
-                }
-                className="px-4 py-2 bg-violet-600 hover:bg-violet-500 rounded-full text-sm font-medium text-white shadow-lg hover:shadow-violet-500/50 hover:scale-105 transition-all"
-              >
-                Download CV
-              </a>
-            </div>
-          </div>
-
-          {/* Profile Image */}
-          <div className="relative w-64 h-64 rounded-full overflow-hidden ring-4 ring-violet-500/40 shadow-2xl shadow-violet-500/20 mx-auto">
-            <img
-              src={profileImage}
-              alt="Sondos Ahmed"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </section>
-
-        {/* Experience */}
-        <section className="mt-8 w-full">
-          <div className="bg-slate-800/40 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 shadow-lg w-full">
-            <h3 className="text-sm font-semibold text-violet-300 uppercase tracking-wider">
-              Experience
-            </h3>
-            <div className="mt-4 flex flex-col gap-4">
-              {experiences.map((e) => (
-                <div
-                  key={e.id}
-                  className="inline-block p-4 rounded-lg bg-slate-700/30 border border-slate-600/40 max-w-fit hover:bg-slate-700/40 transition"
+              <div className="mt-5 flex flex-wrap gap-3">
+                <a
+                  href={
+                    "https://drive.google.com/file/d/1ycQL0RIIDDH26OeSaQiTyh-mQNnLokoj/view?usp=sharing"
+                  }
+                  className="px-4 py-2 bg-violet-600 hover:bg-violet-500 rounded-full text-sm font-medium text-white shadow-lg hover:shadow-violet-500/50 hover:scale-105 transition-all"
                 >
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="font-medium text-white">{e.title}</div>
-                      <div className="text-xs text-violet-400">
-                        {e.org} | {e.period}
+                  Download CV
+                </a>
+              </div>
+            </div>
+
+            {/* Profile Image */}
+            <div className="relative w-64 h-64 rounded-full overflow-hidden ring-4 ring-violet-500/40 shadow-2xl shadow-violet-500/20 mx-auto">
+              <img
+                src={profileImage}
+                alt="Sondos Ahmed"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </section>
+
+          {/* Experience */}
+          <section className="mt-8 w-full">
+            <div className="bg-slate-800/40 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 shadow-lg w-full">
+              <h3 className="text-sm font-semibold text-violet-300 uppercase tracking-wider">
+                Experience
+              </h3>
+              <div className="mt-4 flex flex-col gap-4">
+                {experiences.map((e) => (
+                  <div
+                    key={e.id}
+                    className="inline-block p-4 rounded-lg bg-slate-700/30 border border-slate-600/40 max-w-fit hover:bg-slate-700/40 transition"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <div className="font-medium text-white">{e.title}</div>
+                        <div className="text-xs text-violet-400">
+                          {e.org} | {e.period}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <ul className="mt-2 text-sm text-slate-300 list-disc ml-5 space-y-1">
-                    {e.bullets.map((b, i) => (
-                      <li key={i}>{b}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Skills */}
-        <section className="mt-12 w-full">
-          <div className="w-full p-6 bg-slate-800/40 backdrop-blur-sm rounded-2xl border border-slate-700/50 shadow-lg">
-            <h3 className="text-xl font-semibold text-violet-300 mb-4 uppercase tracking-wider">
-              Key Skills
-            </h3>
-
-            <input
-              type="text"
-              placeholder="Search skills..."
-              value={skillSearch}
-              onChange={(e) => setSkillSearch(e.target.value)}
-              className="w-full mb-6 px-3 py-2 rounded-md bg-slate-700/30 text-white placeholder:text-slate-400 border border-slate-600/40 focus:outline-none focus:ring-2 focus:ring-violet-500/50"
-            />
-
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {Object.entries(skills).map(([category, arr]) => (
-                <div
-                  key={category}
-                  className="bg-slate-700/30 p-4 rounded-2xl border border-slate-600/40 shadow-sm hover:bg-slate-700/40 transition"
-                >
-                  <h4 className="text-sm font-semibold text-violet-300 mb-3 capitalize uppercase tracking-wide">
-                    {category}
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {arr
-                      .filter((s) =>
-                        s.toLowerCase().includes(skillSearch.toLowerCase())
-                      )
-                      .map((s) => (
-                        <span
-                          key={s}
-                          className="flex items-center gap-2 text-xs px-2 py-1 rounded-md bg-violet-500/20 text-slate-100 border border-violet-500/30 hover:scale-105 hover:bg-violet-500/30 hover:border-violet-400/50 transition-all"
-                        >
-                          {s}
-                        </span>
+                    <ul className="mt-2 text-sm text-slate-300 list-disc ml-5 space-y-1">
+                      {e.bullets.map((b, i) => (
+                        <li key={i}>{b}</li>
                       ))}
+                    </ul>
                   </div>
-                </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Skills */}
+          <section className="mt-12 w-full">
+            <div className="w-full p-6 bg-slate-800/40 backdrop-blur-sm rounded-2xl border border-slate-700/50 shadow-lg">
+              <h3 className="text-xl font-semibold text-violet-300 mb-4 uppercase tracking-wider">
+                Key Skills
+              </h3>
+
+              <input
+                type="text"
+                placeholder="Search skills..."
+                value={skillSearch}
+                onChange={(e) => setSkillSearch(e.target.value)}
+                className="w-full mb-6 px-3 py-2 rounded-md bg-slate-700/30 text-white placeholder:text-slate-400 border border-slate-600/40 focus:outline-none focus:ring-2 focus:ring-violet-500/50"
+              />
+
+              <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {Object.entries(skills).map(([category, arr]) => (
+                  <div
+                    key={category}
+                    className="bg-slate-700/30 p-4 rounded-2xl border border-slate-600/40 shadow-sm hover:bg-slate-700/40 transition"
+                  >
+                    <h4 className="text-sm font-semibold text-violet-300 mb-3 capitalize uppercase tracking-wide">
+                      {category}
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {arr
+                        .filter((s) =>
+                          s.toLowerCase().includes(skillSearch.toLowerCase())
+                        )
+                        .map((s) => (
+                          <span
+                            key={s}
+                            className="flex items-center gap-2 text-xs px-2 py-1 rounded-md bg-violet-500/20 text-slate-100 border border-violet-500/30 hover:scale-105 hover:bg-violet-500/30 hover:border-violet-400/50 transition-all"
+                          >
+                            {s}
+                          </span>
+                        ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Projects */}
+          <section id="projects" className="mt-8">
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg font-semibold text-white">Projects</h2>
+              <div className="flex items-center gap-3">
+                <input
+                  value={projSearch}
+                  onChange={(e) => setProjSearch(e.target.value)}
+                  placeholder="Search projects..."
+                  className="px-3 py-2 rounded-md bg-slate-700/30 border border-slate-600/40 text-slate-200 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-violet-500/50"
+                />
+                <a
+                  href={GITHUB_DISCOVER_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-3 py-2 rounded-md bg-gradient-to-r from-violet-600 to-violet-500 hover:from-violet-500 hover:to-violet-400 text-white text-sm shadow-lg hover:shadow-violet-500/50 transition-all"
+                >
+                  Discover More
+                </a>
+              </div>
+            </div>
+
+            <div className="mt-4 flex flex-wrap gap-2">
+              {projectsCategories.map((t) => (
+                <button
+                  key={t}
+                  onClick={() => setProjTag(t)}
+                  className={`px-3 py-1 rounded-full text-sm transition-all ${
+                    projTag === t
+                      ? "bg-violet-600 text-white shadow-lg shadow-violet-500/30"
+                      : "bg-slate-700/30 text-slate-200 border border-slate-600/40 hover:bg-slate-700/50"
+                  }`}
+                >
+                  {t}
+                </button>
               ))}
             </div>
-          </div>
-        </section>
 
-        {/* Projects */}
-        <section id="projects" className="mt-8">
-          <div className="flex items-center justify-between">
-            <h2 className="text-lg font-semibold text-white">Projects</h2>
-            <div className="flex items-center gap-3">
-              <input
-                value={projSearch}
-                onChange={(e) => setProjSearch(e.target.value)}
-                placeholder="Search projects..."
-                className="px-3 py-2 rounded-md bg-slate-700/30 border border-slate-600/40 text-slate-200 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-violet-500/50"
-              />
-              <a
-                href={GITHUB_DISCOVER_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="px-3 py-2 rounded-md bg-gradient-to-r from-violet-600 to-violet-500 hover:from-violet-500 hover:to-violet-400 text-white text-sm shadow-lg hover:shadow-violet-500/50 transition-all"
-              >
-                Discover More
-              </a>
-            </div>
-          </div>
-
-          <div className="mt-4 flex flex-wrap gap-2">
-            {projectsCategories.map((t) => (
-              <button
-                key={t}
-                onClick={() => setProjTag(t)}
-                className={`px-3 py-1 rounded-full text-sm transition-all ${
-                  projTag === t
-                    ? "bg-violet-600 text-white shadow-lg shadow-violet-500/30"
-                    : "bg-slate-700/30 text-slate-200 border border-slate-600/40 hover:bg-slate-700/50"
-                }`}
-              >
-                {t}
-              </button>
-            ))}
-          </div>
-
-          <motion.div
-            layout
-            className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
-          >
-            <AnimatePresence>
-              {filteredProjects.map((p) => (
-                <motion.article
-                  key={p.id}
-                  layout
-                  initial={{ opacity: 0, y: 12 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 12 }}
-                  whileHover={{ translateY: -8 }}
-                  transition={{ type: "spring", stiffness: 250, damping: 22 }}
-                  className="relative rounded-2xl p-5 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 shadow-lg hover:shadow-xl hover:shadow-violet-500/10 transition-shadow"
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex-1">
-                      <h4 className="text-white font-semibold">{p.title}</h4>
-                      <div className="text-xs text-slate-400 mt-1">
-                        {p.tech} · {p.year}
+            <motion.div
+              layout
+              className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
+            >
+              <AnimatePresence>
+                {filteredProjects.map((p) => (
+                  <motion.article
+                    key={p.id}
+                    layout
+                    initial={{ opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 12 }}
+                    whileHover={{ translateY: -8 }}
+                    transition={{ type: "spring", stiffness: 250, damping: 22 }}
+                    className="relative rounded-2xl p-5 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 shadow-lg hover:shadow-xl hover:shadow-violet-500/10 transition-shadow"
+                  >
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1">
+                        <h4 className="text-white font-semibold">{p.title}</h4>
+                        <div className="text-xs text-slate-400 mt-1">
+                          {p.tech} · {p.year}
+                        </div>
+                      </div>
+                      <div className="text-xs text-violet-400 font-medium">
+                        {p.tags.join(", ")}
                       </div>
                     </div>
-                    <div className="text-xs text-violet-400 font-medium">
-                      {p.tags.join(", ")}
-                    </div>
-                  </div>
 
-                  <ul className="mt-3 text-slate-300 text-sm space-y-1">
-                    {p.bullets.slice(0, 3).map((b, i) => (
-                      <li key={i}>• {b}</li>
-                    ))}
-                  </ul>
+                    <ul className="mt-3 text-slate-300 text-sm space-y-1">
+                      {p.bullets.slice(0, 3).map((b, i) => (
+                        <li key={i}>• {b}</li>
+                      ))}
+                    </ul>
 
-                  <div className="mt-4 flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                      {p.links.github && (
-                        <a
-                          href={p.links.github}
-                          target="_blank"
-                          rel="noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className="text-sm underline text-violet-400 hover:text-violet-300 transition"
-                        >
-                          Code
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                </motion.article>
-              ))}
-            </AnimatePresence>
-          </motion.div>
-
-          {filteredProjects.length === 0 && (
-            <p className="mt-6 text-center text-slate-400">
-              No projects match your filters.
-            </p>
-          )}
-        </section>
-
-        {/* Certifications */}
-        <section id="certifications" className="mt-8">
-          <div className="flex items-center justify-between">
-            <h2 className="text-lg font-semibold text-white">
-              Certifications & Courses
-            </h2>
-            <div className="flex items-center gap-3">
-              <input
-                value={certSearch}
-                onChange={(e) => setCertSearch(e.target.value)}
-                placeholder="Search certifications..."
-                className="px-3 py-2 rounded-md bg-slate-700/30 border border-slate-600/40 text-slate-200 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-violet-500/50"
-              />
-              <a
-                href={LINKEDIN_DISCOVER_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="px-3 py-2 rounded-md bg-gradient-to-r from-violet-600 to-violet-500 hover:from-violet-500 hover:to-violet-400 text-white text-sm shadow-lg hover:shadow-violet-500/50 transition-all"
-              >
-                Discover More
-              </a>
-            </div>
-          </div>
-
-          {/* Category Filters */}
-          <div className="mt-4 flex flex-wrap gap-2">
-            {certCategories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setCertTag(cat)}
-                className={`px-3 py-1 rounded-full text-sm transition-all ${
-                  certTag === cat
-                    ? "bg-violet-600 text-white shadow-lg shadow-violet-500/30"
-                    : "bg-slate-700/30 text-slate-200 border border-slate-600/40 hover:bg-slate-700/50"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
-
-          {/* Certifications Grid */}
-          <motion.div
-            layout
-            className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
-          >
-            <AnimatePresence>
-              {filteredCerts.map((cert) => (
-                <motion.article
-                  key={cert.id}
-                  layout
-                  initial={{ opacity: 0, y: 12 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 12 }}
-                  whileHover={{ translateY: -8 }}
-                  transition={{ type: "spring", stiffness: 250, damping: 22 }}
-                  className="relative rounded-2xl p-5 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 shadow-lg hover:shadow-xl hover:shadow-violet-500/10 transition-shadow"
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex-1">
-                      <h4 className="text-white font-semibold">{cert.title}</h4>
-                      <div className="text-xs text-violet-400 mt-1">
-                        {cert.category}
+                    <div className="mt-4 flex items-center justify-between">
+                      <div className="flex items-center gap-3">
+                        {p.links.github && (
+                          <a
+                            href={p.links.github}
+                            target="_blank"
+                            rel="noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className="text-sm underline text-violet-400 hover:text-violet-300 transition"
+                          >
+                            Code
+                          </a>
+                        )}
                       </div>
                     </div>
-                  </div>
+                  </motion.article>
+                ))}
+              </AnimatePresence>
+            </motion.div>
 
-                  <ul className="mt-3 text-slate-300 text-sm space-y-1">
-                    {cert.bullets.slice(0, 3).map((b, i) => (
-                      <li key={i}>• {b}</li>
-                    ))}
-                  </ul>
-                </motion.article>
+            {filteredProjects.length === 0 && (
+              <p className="mt-6 text-center text-slate-400">
+                No projects match your filters.
+              </p>
+            )}
+          </section>
+
+          {/* Certifications */}
+          <section id="certifications" className="mt-8">
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg font-semibold text-white">
+                Certifications & Courses
+              </h2>
+              <div className="flex items-center gap-3">
+                <input
+                  value={certSearch}
+                  onChange={(e) => setCertSearch(e.target.value)}
+                  placeholder="Search certifications..."
+                  className="px-3 py-2 rounded-md bg-slate-700/30 border border-slate-600/40 text-slate-200 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-violet-500/50"
+                />
+                <a
+                  href={LINKEDIN_DISCOVER_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-3 py-2 rounded-md bg-gradient-to-r from-violet-600 to-violet-500 hover:from-violet-500 hover:to-violet-400 text-white text-sm shadow-lg hover:shadow-violet-500/50 transition-all"
+                >
+                  Discover More
+                </a>
+              </div>
+            </div>
+
+            {/* Category Filters */}
+            <div className="mt-4 flex flex-wrap gap-2">
+              {certCategories.map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => setCertTag(cat)}
+                  className={`px-3 py-1 rounded-full text-sm transition-all ${
+                    certTag === cat
+                      ? "bg-violet-600 text-white shadow-lg shadow-violet-500/30"
+                      : "bg-slate-700/30 text-slate-200 border border-slate-600/40 hover:bg-slate-700/50"
+                  }`}
+                >
+                  {cat}
+                </button>
               ))}
-            </AnimatePresence>
-          </motion.div>
+            </div>
 
-          {filteredCerts.length === 0 && (
-            <p className="mt-6 text-center text-slate-400">
-              No certifications match your filters.
+            {/* Certifications Grid */}
+            <motion.div
+              layout
+              className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
+            >
+              <AnimatePresence>
+                {filteredCerts.map((cert) => (
+                  <motion.article
+                    key={cert.id}
+                    layout
+                    initial={{ opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 12 }}
+                    whileHover={{ translateY: -8 }}
+                    transition={{ type: "spring", stiffness: 250, damping: 22 }}
+                    className="relative rounded-2xl p-5 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 shadow-lg hover:shadow-xl hover:shadow-violet-500/10 transition-shadow"
+                  >
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1">
+                        <h4 className="text-white font-semibold">
+                          {cert.title}
+                        </h4>
+                        <div className="text-xs text-violet-400 mt-1">
+                          {cert.category}
+                        </div>
+                      </div>
+                    </div>
+
+                    <ul className="mt-3 text-slate-300 text-sm space-y-1">
+                      {cert.bullets.slice(0, 3).map((b, i) => (
+                        <li key={i}>• {b}</li>
+                      ))}
+                    </ul>
+                  </motion.article>
+                ))}
+              </AnimatePresence>
+            </motion.div>
+
+            {filteredCerts.length === 0 && (
+              <p className="mt-6 text-center text-slate-400">
+                No certifications match your filters.
+              </p>
+            )}
+          </section>
+
+          {/* Contact */}
+          <section
+            id="contact"
+            className="mt-10 bg-slate-800/40 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 shadow-lg"
+          >
+            <h3 className="text-lg font-semibold text-white">Contact</h3>
+            <p className="mt-3 text-slate-300">
+              <a
+                className="underline text-violet-400 hover:text-violet-300 transition"
+                href="mailto:sondosahmed72@gmail.com"
+              >
+                sondosahmed72@gmail.com
+              </a>{" "}
+              | +20 127 661 1078
             </p>
-          )}
-        </section>
 
-        {/* Contact */}
-        <section
-          id="contact"
-          className="mt-10 bg-slate-800/40 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 shadow-lg"
-        >
-          <h3 className="text-lg font-semibold text-white">Contact</h3>
-          <p className="mt-3 text-slate-300">
-            <a
-              className="underline text-violet-400 hover:text-violet-300 transition"
-              href="mailto:sondosahmed72@gmail.com"
-            >
-              sondosahmed72@gmail.com
-            </a>{" "}
-            | +20 127 661 1078
-          </p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <a
+                className="px-4 py-2 rounded-md bg-violet-600 hover:bg-violet-500 text-white shadow-lg hover:shadow-violet-500/50 transition-all"
+                href="https://www.linkedin.com/in/sondos-ahmed-109787246/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a
+                className="px-4 py-2 rounded-md bg-violet-600 hover:bg-violet-500 text-white shadow-lg hover:shadow-violet-500/50 transition-all"
+                href="https://github.com/sondosahmed72"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
+          </section>
 
-          <div className="mt-4 flex flex-wrap gap-3">
-            <a
-              className="px-4 py-2 rounded-md bg-violet-600 hover:bg-violet-500 text-white shadow-lg hover:shadow-violet-500/50 transition-all"
-              href="https://www.linkedin.com/in/sondos-ahmed-109787246/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a
-              className="px-4 py-2 rounded-md bg-violet-600 hover:bg-violet-500 text-white shadow-lg hover:shadow-violet-500/50 transition-all"
-              href="https://github.com/sondosahmed72"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-          </div>
-        </section>
-
-        <footer className="mt-10 text-center text-slate-400 text-xs">
-          Built with React + Tailwind + Framer Motion — Elegant Dark Navy +
-          Violet By Sondos Ahmed
-        </footer>
+          <footer className="mt-10 text-center text-slate-400 text-xs">
+            Built with React + Tailwind + Framer Motion — Elegant Dark Navy +
+            Violet By Sondos Ahmed
+          </footer>
+        </div>
       </div>
-      </div>
-      
     </div>
   );
 }
