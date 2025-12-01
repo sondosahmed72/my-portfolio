@@ -65,6 +65,24 @@ const projectsData = [
 
   // ---------------- Machine Learning & AI ----------------
   {
+  id: "retail_copilot",
+  category: "Machine Learning & AI",
+  title: "Retail Analytics Copilot — Hybrid RAG + SQL Agent",
+  year: "2025",
+  tags: ["AI Agent", "RAG", "SQL"],
+  tech: "LangGraph, DSPy, SQLite",
+  bullets: [
+    "Built a local analytics agent combining RAG with SQL execution.",
+    "Designed 8-node LangGraph workflow for query routing.",
+    "Implemented template-based SQL generation with cleaning pipeline.",
+    "Delivered fully offline structured and accurate query results.",
+  ],
+  links: {
+    github: "https://github.com/sondosahmed72/Retail-Analytics-Copilot.git",
+    live: "https://ra7ala.live",
+  },
+  },
+  {
     id: "waste_classification",
     category: "Machine Learning & AI",
     title: "Waste Classification Using Transfer Learning",
@@ -1103,7 +1121,7 @@ export default function PortfolioPage() {
               <div className="mt-5 flex flex-wrap gap-3">
                 <a
                   href={
-                    "https://drive.google.com/file/d/1ycQL0RIIDDH26OeSaQiTyh-mQNnLokoj/view?usp=sharing"
+                    "https://drive.google.com/drive/folders/1Et6_0pzbqyG7yRm3zKoVaKeLvcIsqfiX?usp=sharing"
                   }
                   className="px-4 py-2 bg-violet-600 hover:bg-violet-500 rounded-full text-sm font-medium text-white shadow-lg hover:shadow-violet-500/50 hover:scale-105 transition-all"
                 >
